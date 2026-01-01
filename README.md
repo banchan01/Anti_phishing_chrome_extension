@@ -61,9 +61,9 @@ The project consists of three main components:
 
 1. Install Python dependencies:
 - Run `cd flask-backend` to navigate to the backend directory.
-- Set-up python virtual environment `python3 -m venv venv`
-- Activate the virtual environment with `source venv/bin/activate` (Mac) or `myenv\Scripts\activate` (Windows)
-- Install dependencies with `pip install -r requirements.txt`
+- Set-up python virtual environment `py -3.11 -m venv .venv`
+- Activate the virtual environment with `source .venv/bin/activate`
+- Install dependencies with `python -m pip install -r requirements.txt`
 
 2. Set up environment variables:
 - Create `.env` file in flask-backend directory
